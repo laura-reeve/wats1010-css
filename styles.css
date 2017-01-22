@@ -1,6 +1,78 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+/*GENERAL STYLES*/
+
+body {
+  background-image: url("images/hard-paper-texture.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: serif;
+  color: rgb(115,56,23);
+}
+
+/*HEADER.PAGE-HEADER*/
+
+header.page-header {
+  border: 1px solid brown;
+  border-radius: 25px;
+  background-color: rgba(255,250,205,0.4);
+  padding: 1.5rem;
+}
+header h1{
+  margin-bottom: 0;
+}
+header p{
+  margin-top: 0;
+}
+
+/*ASIDE.MORE-INFO*/
+
+aside.more-info {
+  background-color: rgba(245,245,245,0.4);
+  border: 1px solid brown;
+  border-radius: 15px 25px 15px 15px;
+  padding: 1.5rem;
+  float: right;
+  width: 400px;
+}
+aside.more-info img {
+  width: 200px;
+  height: auto;
+  border: 2px solid brown;
+  border-radius: 15px;
+  float: left;
+  margin-right: 2em;
+}
+
+/*SECTION#CONTENT AND .POEM*/
+
+section#content {
+  border: 1px solid brown;
+  border-radius: 25px;
+  background-color: rgba(189,156,81,0.6);
+}
+.poem {
+  list-style-type: none;
+  line-height: 1.8;
+}
+ul.poem li:first-child::first-letter{
+  font-size: 1.6em;
+  font-family: serif;
+}
+ul.poem li:first-child{
+  line-height: 1.8em;
+}
+footer p {
+  padding-left: 2rem;
+}
+
+/*FOOTER.PAGE-FOOTER*/
+
+footer.page-footer {
+  border: 1px solid brown;
+  border-radius: 25px;
+  background-color: rgba(211,211,211,0.6);
 }
